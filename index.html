@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Primeiros Passos com HTML</title>
+</head>
+<body>
+    <h1 id="Inicio"><strong><i>Estudos de HTML</i></h1></strong>
+    <hr />
+
+    <ul>
+        <li><a href="#História dos computadores">História dos computadores</a></li>
+        <li><a href="#O que são Clientes">O que são <i>Clients</i>?</a></li>
+        <li><a href="#O que são Servidores">O que são <i>Servers</i>?</a></li>
+        <li><a href="#Estrutura básica do HTML">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#Links">Links de referências</a></li>
+    </ul>
+
+    <h2 id="História dos computadores">História dos computadores</h2>
+    <a href="#Inicio">(Inicio)</a></small>
+    <p>O primeiro computador eletrônico foi o ENIAC (Electronic Numerical Integrator and
+        Computer), projetado pela Universidade da Pennsylvania  para calcular tiros de
+        artilharia durante a 2ª Guerra Mundial (só que quando ele ficou pronto a guerra tinha
+        acabado). Ele era capaz de registrar 20 números com 10 dígitos cada, pesava 30 toneladas e
+        ocupava 3 salas. Possuía válvulas à vácuo, capazes de armazenar um bit de informação. As
+        válvulas à vácuo falhavam com freqüência, criando um desconfiança quanto aos
+        computadores. A única memória existente eram os cartões perfurados  e a
+        linguagem de programação era a linguagem de máquina.
+
+    </p>
+
+    <h2 id="O que são Clientes">O que são <i>Clients</i>?</h2>
+    <a href="#Inicio">(Inicio)</a></small>
+    <p>No desenvolvimento da web, "lado do cliente" refere-se a tudo em um aplicativo web que é exibido ou ocorre no cliente (dispositivo do usuário final). Isso inclui o que o usuário vê, como texto, imagens e o resto da IU, junto com quaisquer ações que um aplicativo execute no navegador do usuário.
+        Linguagens de marcação como HTML e CSS são interpretadas pelo navegador no lado do cliente. Além disso, muitos desenvolvedores contemporâneos estão incluindo processos do lado do cliente em sua arquitetura de aplicativos e deixando de fazer tudo no lado do servidor; a lógica de negócios para páginas web dinâmicas*, 
+        por exemplo, geralmente é executada no lado do cliente em um aplicativo web moderno. Os processos do lado do cliente quase sempre são escritos em JavaScript.
+    </p>
+
+    <h2 id="O que são Servidores"></h2>>O que são <i>Servers</i>?</h2>
+    <a href="#Inicio">(Inicio)</a></small>
+    <p>Muito parecido com o lado do cliente, o "lado do servidor" significa tudo o que acontece no servidor, em vez de no cliente. No passado, quase toda a lógica de negócios era executada no lado do servidor e isso incluía renderizar páginas da web dinâmicas, interagir com bancos de dados, autenticação de identidade e notificações push.
+
+        O problema de hospedar todos esses processos no lado do servidor é que cada solicitação envolvendo um deles tem que viajar desde o cliente até o servidor, todas as vezes. Isso apresenta uma grande quantidade de latência. Por esse motivo, os aplicativos contemporâneos executam mais códigos no lado do cliente;
+         um caso de uso é renderizar páginas da web dinâmicas em tempo real, executando scripts no navegador que fazem alterações no conteúdo que o usuário vê.
+
+    </p>
+
+    <h2 id="Estrutura básica do HTML"></h2id>>Como é uma estrutura básica de um HTML?</h2>
+    <a href="#Inicio">(Inicio)</a></small>
+    <p> É possível compreender o documento em HTML de uma maneira muito simples, através de uma divisão de blocos das tags essenciais, conforme a a seguinte estrutura:</p>
+
+    <p>   Definição do documento (doctype)
+        Cabeça (head)
+        Corpo (body)
+        Doctype - Definindo o documento
+        Uma coisa importante: SEMPRE deve existir o doctype, que é este código <!DOCTYPE html>.
+    </p>
+    <p>  O doctype não é uma tag HTML, mas uma instrução para o navegador e outros programas que podem ler seu site, que o código encontrado ali é um código HTML. Assim eles sabem o que fazer para mostrar seu site da melhor forma possível. Lembre-se: o doctype é OBRIGATÓRIO e deve ser sempre a PRIMEIRA LINHA do seu documento.</p>
+        
+    <p>   HEAD</p>
+    <p>Contém informações que não são transpostas visivelmente para o usuário/leitor do documento. São dados implícitos, de uso e controle do documento: vinculação com outros arquivos, aplicação de lógica de programação de scripts e metadados. Na prática, todo o conteúdo do cabeçalho fica delimitado entre a abertura e fechamento tag head.</p>
+        
+    <p> BODY</p>
+    <p> Trata-se do documento em si, ou seja, a informação legível para o usuário/leitor do documento. É todo e qualquer texto que se deseja apresentar, assim como toda e qualquer forma de mídia de saída (imagens, sons, miniaplicativos embutidos, conteúdo multimídia, etc). Além disso, toda a apresentação de entrada de dados (formulários) também se aplica neste seção do documento. 
+        Na prática, o corpo do documento é delimitado pelo par de tags <body> e </body>.
+        
+        Este é o preceito básico que deve estar muito bem claro para você: onde as marcações se aplicam, e quais são os resultados deste modelo. Por exemplo: se vocês deseja informar conteúdo textual para saída legível ao usuário do seu sistema web, esta marcação deverá obrigatoriamente estar no bloco do corpo da página. Ainda: para definir qual o tipo de codificação da página (uma meta informação do documento),
+         esta deve obrigatoriamente estar marcada no cabeçalho do mesmo documento.
+        
+        Dentro do elemento BODY sua estrutura de página terá os elementos semânticos da construção da sua página, onde serão declarados e identificados cabeçalhos, rodapé, conteúdo principal, etc.
+
+    </p>
+
+
+    <h2 id="Links"></h2>>Links de referências</h2>
+    <a href="#Inicio">(Inicio)</a></small>
+  
+    <li><a href="https://web.dio.me/lab/criar-uma-pagina-web-utilizando-as-tags-aprendidas/learning/fc56c26e-95a4-419d-a5bf-48826e676952?back=/track/formacao-html-web-developer">DIO</a></li>
+        <li><a href="https://ethw.org/Category:Computing_and_electronics?gad_source=1&gclid=Cj0KCQjwzva1BhD3ARIsADQuPnVnR9ZmibhPfM9KNtOJDOrOEoEkNfHv0ikgeWe2pbWSw-9aP7IRSrsaAs2jEALw_wcB">História dos computadores</a></li>
+    </ul>
+
+</body>
+</html>
